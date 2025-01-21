@@ -2,7 +2,7 @@
 
 1. ALERT dataset download: https://doi.org/10.6084/m9.figshare.28244525.v2
 2. Make ALERT dataset to pickle files: using ALERT_makeDataset.py
-  - We can manipulate the sample in this file (e.g., observation window control, infromation cropping, ...).
+  - We can manipulate the samples (e.g., observation window control, infromation cropping, ...) in this file. 
 3. Setting environment: using ALERT_setting.py
 4. Model configurations: using ALERT_models.py
   - We can modify the details of models in this file.
