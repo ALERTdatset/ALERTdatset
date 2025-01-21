@@ -1,6 +1,9 @@
 ## ALERT open dataset 👋
 
 1. ALERT dataset download: https://doi.org/10.6084/m9.figshare.28244525.v2
+  - We strongly recommend the linux environment.
+  - Using tar -xvzf ALERT_train.tar.gz for decompression
+  - Locate the ALERT_train directory on the same level of ALERT files
 2. Make ALERT dataset to pickle files: using ALERT_makeDataset.py
   - We can manipulate the samples (e.g., observation window control, infromation cropping, ...) in this file. 
 3. Setting environment: using ALERT_setting.py
