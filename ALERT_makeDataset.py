@@ -178,7 +178,7 @@ def usage_exam():
     print("===============================================================================================================\n")
     print("Please write down the exact command")
     print("\n")
-    print("   EX)     python3 makeDataset.py common/extend cropO/cropX/CA sample_size")
+    print("   EX)     python3 ALERT_makeDataset.py common/extend cropO/cropX/CA sample_size")
     print("\n")
     print("===============================================================================================================\n")
     sys.exit()
