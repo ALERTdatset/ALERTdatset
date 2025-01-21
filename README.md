@@ -6,6 +6,7 @@
   - Locate the ALERT_train directory on the same level of ALERT files
 2. Make ALERT dataset to pickle files: using ALERT_makeDataset.py
   - We can manipulate the samples (e.g., observation window control, infromation cropping, ...) in this file. 
+  - Usage example: python3 ALERT_makeDataset.py common/extend cropO/cropX/CA sample_size,   ex) python3 ALERT_makeDataset.py common cropO 500
 3. Setting environment: using ALERT_setting.py
 4. Model configurations: using ALERT_models.py
   - We can modify the details of models in this file.
